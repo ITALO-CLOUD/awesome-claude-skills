@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DJOLOF Chicken - Le vrai goût du poulet africain. Restaurant à Almamya-Kaloum, Conakry. Poulet braisé, riz jollof, frites et boissons. Ouvert tous les jours de 8h à minuit.">
+    <meta name="keywords" content="DJOLOF Chicken, restaurant, Conakry, Guinée, poulet braisé, riz jollof, cuisine africaine, Almamya, Kaloum">
+    <meta name="theme-color" content="#E63946">
+    <title>DJOLOF Chicken — Le vrai goût du poulet africain | Conakry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <span class="nav__logo-icon">🍗</span>
+                <span class="nav__logo-text">DJOLOF<span class="accent">Chicken</span></span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active">Accueil</a></li>
+                    <li><a href="#menu" class="nav__link">Menu</a></li>
+                    <li><a href="#about" class="nav__link">À propos</a></li>
+                    <li><a href="#hours" class="nav__link">Horaires</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <button class="nav__close" id="nav-close" aria-label="Fermer le menu">✕</button>
+            </div>
+
+            <a href="tel:+224627276721" class="nav__cta">📞 Commander</a>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+        </nav>
+    </header>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+        <div class="hero__bg"></div>
+        <div class="hero__overlay"></div>
+
+        <div class="container hero__container">
+            <div class="hero__content reveal">
+                <div class="hero__rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="rating-text"><strong>5,0</strong> · 1 avis Google</span>
+                </div>
+
+                <h1 class="hero__title">
+                    <span class="hero__title-main">DJOLOF</span>
+                    <span class="hero__title-sub">Chicken</span>
+                </h1>
+
+                <p class="hero__slogan">Le vrai goût du poulet africain 🔥</p>
+
+                <p class="hero__desc">
+                    Poulet braisé authentique, riz jollof traditionnel et saveurs d'Afrique.
+                    Au cœur d'Almamya-Kaloum, Conakry.
+                </p>
+
+                <div class="hero__buttons">
+                    <a href="tel:+224627276721" class="btn btn--primary">
+                        <span>📞</span> Commander maintenant
+                    </a>
+                    <a href="#menu" class="btn btn--ghost">Voir le menu</a>
+                </div>
+
+                <div class="hero__info">
+                    <div class="hero__info-item">
+                        <span class="hero__info-icon">🕐</span>
+                        <div>
+                            <strong>Ouvert maintenant</strong>
+                            <small>Tous les jours · 8h – 00h</small>
+                        </div>
+                    </div>
+                    <div class="hero__info-item">
+                        <span class="hero__info-icon">📍</span>
+                        <div>
+                            <strong>Almamya-Kaloum</strong>
+                            <small>Conakry, Guinée</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero__visual">
+                <div class="hero__plate">
+                    <div class="hero__plate-img" aria-label="Poulet braisé"></div>
+                    <div class="hero__badge hero__badge--top">
+                        <span>🌶️</span><br>Saveurs<br>africaines
+                    </div>
+                    <div class="hero__badge hero__badge--bottom">
+                        <span>⭐</span><br>Note<br><strong>5,0/5</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__scroll">
+            <span>Découvrir</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ========== FEATURES ========== -->
+    <section class="features">
+        <div class="container">
+            <div class="features__grid">
+                <div class="feature reveal">
+                    <div class="feature__icon">🔥</div>
+                    <h3>Cuisson au feu de bois</h3>
+                    <p>Notre poulet est braisé selon la tradition pour des saveurs intenses.</p>
+                </div>
+                <div class="feature reveal">
+                    <div class="feature__icon">🌿</div>
+                    <h3>Produits frais</h3>
+                    <p>Ingrédients locaux et de qualité, sélectionnés chaque jour.</p>
+                </div>
+                <div class="feature reveal">
+                    <div class="feature__icon">⚡</div>
+                    <h3>Service rapide</h3>
+                    <p>Sur place, à emporter ou en livraison — rapide et chaleureux.</p>
+                </div>
+                <div class="feature reveal">
+                    <div class="feature__icon">💛</div>
+                    <h3>L'esprit africain</h3>
+                    <p>Une ambiance conviviale et authentique au cœur de Conakry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MENU ========== -->
+    <section class="section menu" id="menu">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__tag">Notre carte</span>
+                <h2 class="section__title">Le Menu</h2>
+                <p class="section__subtitle">
+                    Des plats authentiques préparés avec passion, à des prix accessibles.
+                </p>
+            </div>
+
+            <div class="menu__categories">
+                <button class="menu__cat active" data-cat="all">Tout</button>
+                <button class="menu__cat" data-cat="poulet">Poulet</button>
+                <button class="menu__cat" data-cat="plats">Plats</button>
+                <button class="menu__cat" data-cat="accompagnements">Accompagnements</button>
+                <button class="menu__cat" data-cat="boissons">Boissons</button>
+            </div>
+
+            <div class="menu__grid">
+                <article class="menu-card reveal" data-cat="poulet">
+                    <div class="menu-card__img menu-card__img--braise"></div>
+                    <div class="menu-card__body">
+                        <div class="menu-card__top">
+                            <h3>Poulet braisé</h3>
+                            <span class="menu-card__price">50 000 GNF</span>
+                        </div>
+                        <p>Poulet entier mariné aux épices africaines, braisé au feu de bois. Servi avec sauce piquante maison.</p>
+                        <div class="menu-card__tags">
+                            <span class="tag tag--hot">🔥 Spécialité</span>
+                            <span class="tag">Pour 2 pers.</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card reveal" data-cat="poulet">
+                    <div class="menu-card__img menu-card__img--demi"></div>
+                    <div class="menu-card__body">
+                        <div class="menu-card__top">
+                            <h3>Demi-poulet braisé</h3>
+                            <span class="menu-card__price">28 000 GNF</span>
+                        </div>
+                        <p>La moitié de notre poulet vedette, parfait pour une personne. Servi avec frites ou riz.</p>
+                        <div class="menu-card__tags">
+                            <span class="tag">Populaire</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card reveal" data-cat="plats">
+                    <div class="menu-card__img menu-card__img--jollof"></div>
+                    <div class="menu-card__body">
+                        <div class="menu-card__top">
+                            <h3>Riz Jollof</h3>
+                            <span class="menu-card__price">25 000 GNF</span>
+                        </div>
+                        <p>Le mythique riz jollof aux tomates, oignons et épices. La star de l'Afrique de l'Ouest.</p>
+                        <div class="menu-card__tags">
+                            <span class="tag tag--hot">🌶️ Épicé</span>
+                            <span class="tag">Tradition</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card reveal" data-cat="plats">
+                    <div class="menu-card__img menu-card__img--combo"></div>
+                    <div class="menu-card__body">
+                        <div class="menu-card__top">
+                            <h3>Combo Djolof</h3>
+                            <span class="menu-card__price">45 000 GNF</span>
+                        </div>
+                        <p>Demi-poulet braisé + riz jollof + boisson. Le combo signature pour découvrir nos spécialités.</p>
+                        <div class="menu-card__tags">
+                            <span class="tag tag--featured">⭐ Best-seller</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card reveal" data-cat="accompagnements">
+                    <div class="menu-card__img menu-card__img--frites"></div>
+                    <div class="menu-card__body">
+                        <div class="menu-card__top">
+                            <h3>Frites maison</h3>
+                            <span class="menu-card__price">15 000 GNF</span>
+                        </div>
+                        <p>Frites dorées et croustillantes, préparées sur place. Servies avec ketchup et mayo.</p>
+                        <div class="menu-card__tags">
+                            <span class="tag">Croustillant</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card reveal" data-cat="accompagnements">
+                    <div class="menu-card__img menu-card__img--alloco"></div>
+                    <div class="menu-card__body">
+                        <div class="menu-card__top">
+                            <h3>Alloco (banane plantain)</h3>
+                            <span class="menu-card__price">12 000 GNF</span>
+                        </div>
+                        <p>Bananes plantains mûres frites, sucrées et fondantes. L'accompagnement africain par excellence.</p>
+                        <div class="menu-card__tags">
+                            <span class="tag">Sucré-salé</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card reveal" data-cat="boissons">
+                    <div class="menu-card__img menu-card__img--bissap"></div>
+                    <div class="menu-card__body">
+                        <div class="menu-card__top">
+                            <h3>Jus de Bissap</h3>
+                            <span class="menu-card__price">8 000 GNF</span>
+                        </div>
+                        <p>Boisson rafraîchissante à base de fleurs d'hibiscus. Naturelle et désaltérante.</p>
+                        <div class="menu-card__tags">
+                            <span class="tag">Naturel</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card reveal" data-cat="boissons">
+                    <div class="menu-card__img menu-card__img--gingembre"></div>
+                    <div class="menu-card__body">
+                        <div class="menu-card__top">
+                            <h3>Jus de Gingembre</h3>
+                            <span class="menu-card__price">8 000 GNF</span>
+                        </div>
+                        <p>Le jus de gingembre frais, piquant et tonifiant. Une véritable bombe de saveurs.</p>
+                        <div class="menu-card__tags">
+                            <span class="tag tag--hot">🌶️ Piquant</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card reveal" data-cat="boissons">
+                    <div class="menu-card__img menu-card__img--soda"></div>
+                    <div class="menu-card__body">
+                        <div class="menu-card__top">
+                            <h3>Sodas & Eau</h3>
+                            <span class="menu-card__price">5 000 GNF</span>
+                        </div>
+                        <p>Coca-Cola, Fanta, Sprite, eau minérale. Toujours bien frais.</p>
+                        <div class="menu-card__tags">
+                            <span class="tag">Frais</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="menu__cta reveal">
+                <p>Envie d'en commander ? Appelez-nous directement.</p>
+                <a href="tel:+224627276721" class="btn btn--primary">
+                    📞 +224 627 27 67 21
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section about" id="about">
+        <div class="container about__container">
+            <div class="about__visual reveal">
+                <div class="about__img about__img--main"></div>
+                <div class="about__img about__img--small"></div>
+                <div class="about__sticker">
+                    <span>🍗</span>
+                    <strong>100% Authentique</strong>
+                </div>
+            </div>
+
+            <div class="about__content reveal">
+                <span class="section__tag">À propos</span>
+                <h2 class="section__title">Bienvenue chez<br><span class="accent-text">DJOLOF Chicken</span></h2>
+                <p class="about__lead">
+                    Au cœur d'Almamya-Kaloum, DJOLOF Chicken est bien plus qu'un restaurant —
+                    c'est une célébration de la cuisine africaine.
+                </p>
+                <p>
+                    Notre poulet braisé, mariné aux épices traditionnelles puis cuit lentement,
+                    est servi accompagné de notre fameux riz jollof, de frites maison et
+                    d'accompagnements faits avec amour. Chaque plat est préparé avec des
+                    ingrédients frais sélectionnés chaque matin.
+                </p>
+
+                <div class="about__stats">
+                    <div class="stat">
+                        <strong>5,0</strong>
+                        <span>★★★★★</span>
+                        <small>Note Google</small>
+                    </div>
+                    <div class="stat">
+                        <strong>100%</strong>
+                        <small>Cuisine maison</small>
+                    </div>
+                    <div class="stat">
+                        <strong>16h/j</strong>
+                        <small>Tous les jours</small>
+                    </div>
+                </div>
+
+                <a href="#contact" class="btn btn--primary">Nous trouver</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== HOURS ========== -->
+    <section class="section hours" id="hours">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__tag">Horaires</span>
+                <h2 class="section__title">Toujours à votre service</h2>
+                <p class="section__subtitle">
+                    Nous sommes ouverts <strong>tous les jours</strong> de la semaine
+                    pour vous régaler du matin jusqu'à minuit.
+                </p>
+            </div>
+
+            <div class="hours__card reveal">
+                <div class="hours__badge">
+                    <span class="pulse"></span>
+                    Ouvert maintenant
+                </div>
+                <div class="hours__main">
+                    <div class="hours__big">08:00 – 00:00</div>
+                    <div class="hours__sub">7 jours sur 7</div>
+                </div>
+
+                <ul class="hours__list">
+                    <li><span>Lundi</span><span>08:00 – 00:00</span></li>
+                    <li><span>Mardi</span><span>08:00 – 00:00</span></li>
+                    <li><span>Mercredi</span><span>08:00 – 00:00</span></li>
+                    <li><span>Jeudi</span><span>08:00 – 00:00</span></li>
+                    <li><span>Vendredi</span><span>08:00 – 00:00</span></li>
+                    <li><span>Samedi</span><span>08:00 – 00:00</span></li>
+                    <li><span>Dimanche</span><span>08:00 – 00:00</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__tag">Nous contacter</span>
+                <h2 class="section__title">Venez nous rendre visite</h2>
+                <p class="section__subtitle">
+                    Une question, une commande, une réservation ? Nous sommes à votre écoute.
+                </p>
+            </div>
+
+            <div class="contact__grid">
+                <div class="contact__info reveal">
+                    <a href="tel:+224627276721" class="contact__card contact__card--link">
+                        <div class="contact__icon">📞</div>
+                        <h3>Téléphone</h3>
+                        <p class="contact__value">+224 627 27 67 21</p>
+                        <span class="contact__action">Appeler maintenant →</span>
+                    </a>
+
+                    <div class="contact__card">
+                        <div class="contact__icon">📍</div>
+                        <h3>Adresse</h3>
+                        <p class="contact__value">Almamya-Kaloum<br>Conakry, Guinée</p>
+                        <span class="contact__action">G76P+V4 Conakry</span>
+                    </div>
+
+                    <a href="https://wa.me/224627276721" target="_blank" rel="noopener" class="contact__card contact__card--link contact__card--whatsapp">
+                        <div class="contact__icon">💬</div>
+                        <h3>WhatsApp</h3>
+                        <p class="contact__value">+224 627 27 67 21</p>
+                        <span class="contact__action">Envoyer un message →</span>
+                    </a>
+
+                    <div class="contact__card">
+                        <div class="contact__icon">🕐</div>
+                        <h3>Horaires</h3>
+                        <p class="contact__value">Tous les jours<br>08:00 – 00:00</p>
+                        <span class="contact__action">7j/7</span>
+                    </div>
+                </div>
+
+                <form class="contact__form reveal" id="contact-form">
+                    <h3>Réserver / Commander</h3>
+                    <p class="contact__form-sub">Laissez-nous un message, nous vous rappelons.</p>
+
+                    <div class="form-group">
+                        <label for="name">Votre nom</label>
+                        <input type="text" id="name" name="name" placeholder="Ex : Mariama Diallo" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+224 6XX XX XX XX" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Votre commande ou réservation..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--block">
+                        Envoyer le message
+                    </button>
+
+                    <p class="form-note">
+                        Vous pouvez aussi nous appeler directement au
+                        <a href="tel:+224627276721">+224 627 27 67 21</a>.
+                    </p>
+
+                    <div class="form-success" id="form-success">
+                        ✅ Message envoyé ! Nous vous rappelons très vite.
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact__map reveal">
+                <iframe
+                    src="https://www.google.com/maps?q=Almamya-Kaloum,Conakry,Guinea&output=embed"
+                    width="100%"
+                    height="420"
+                    style="border:0;border-radius:20px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Localisation DJOLOF Chicken sur Google Maps">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__brand">
+                <div class="nav__logo">
+                    <span class="nav__logo-icon">🍗</span>
+                    <span class="nav__logo-text">DJOLOF<span class="accent">Chicken</span></span>
+                </div>
+                <p>Le vrai goût du poulet africain, au cœur de Conakry.</p>
+            </div>
+
+            <div class="footer__col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Contact</h4>
+                <ul>
+                    <li>📞 <a href="tel:+224627276721">+224 627 27 67 21</a></li>
+                    <li>📍 Almamya-Kaloum, Conakry</li>
+                    <li>🕐 Tous les jours · 8h – 00h</li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Suivez-nous</h4>
+                <div class="footer__social">
+                    <a href="https://wa.me/224627276721" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+                    <a href="tel:+224627276721" aria-label="Téléphone">📞</a>
+                    <a href="#contact" aria-label="Email">✉️</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p>© 2026 DJOLOF Chicken · Tous droits réservés · Conakry, Guinée 🇬🇳</p>
+        </div>
+    </footer>
+
+    <!-- ========== FLOATING WHATSAPP ========== -->
+    <a href="https://wa.me/224627276721?text=Bonjour%20DJOLOF%20Chicken%2C%20je%20souhaite%20passer%20une%20commande." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactez-nous sur WhatsApp">
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor" aria-hidden="true">
+            <path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.093-1.29-1.554-1.916-.146-.2-.227-.36-.227-.51 0-.32.62-.484.84-.96.227-.49-.04-1.34-.34-2.05-.31-.74-.62-1.55-1.13-1.55h-.6c-.32 0-.64.04-.93.18-.61.32-.93 1.05-.93 1.7 0 .65.16 1.27.43 1.86.81 1.84 1.86 3.55 3.18 5.06 1.32 1.51 3.04 2.55 4.88 3.36.59.27 1.21.43 1.86.43.65 0 1.38-.32 1.7-.93.14-.29.18-.61.18-.93v-.6c0-.51-.81-.82-1.55-1.13-.71-.3-1.56-.57-2.05-.34-.48.22-.65.84-.96.84zM16 .53C7.5.53.53 7.5.53 16c0 2.93.83 5.66 2.27 7.97L.5 31.5l7.74-2.27C10.55 30.67 13.27 31.5 16 31.5c8.5 0 15.47-6.97 15.47-15.47S24.5.53 16 .53z"/>
+        </svg>
+        <span class="whatsapp-float__label">WhatsApp</span>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
